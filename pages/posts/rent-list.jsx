@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
+import {CommonBtnComp, CommonHeadComp, CommonTitleComp} from "../../src/components/common-comp";
 
 class RentList extends Component {
   render() {
     return (
       <div>
-        RentList
+        <CommonTitleComp />
+        <CommonHeadComp title={`租赁记录`} />
       </div>
     );
   }
