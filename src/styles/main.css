@@ -575,4 +575,54 @@ li {
   width: 90%;
   background-color: #fad42c;
 }
+.refund-apply-wrapper .refund-apply-content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.refund-apply-wrapper .refund-apply-content .refund-tab {
+  width: 95%;
+}
+.refund-apply-wrapper .refund-apply-content .refund-tab span {
+  margin-right: 20px;
+  position: relative;
+  font-size: 16px;
+}
+.refund-apply-wrapper .refund-apply-content .refund-tab span.active:after {
+  content: '';
+  width: 2rem;
+  border-bottom: 3px solid #fad42c;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+}
+.refund-apply-wrapper .refund-apply-content .refund-item-comp-wrapper {
+  width: 95%;
+}
+.refund-apply-wrapper .refund-apply-content .refund-item-comp-wrapper .refund-item-comp {
+  padding: 15px 25px;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.refund-apply-wrapper .refund-apply-content .refund-item-comp-wrapper .refund-item-comp .refund-item-title {
+  display: flex;
+  justify-content: space-between;
+}
+.refund-apply-wrapper .refund-apply-content .refund-item-comp-wrapper .refund-item-comp .refund-item-common {
+  margin-top: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+.refund-apply-wrapper .refund-apply-content .refund-item-comp-wrapper .refund-item-comp .refund-item-common img {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 /*# sourceMappingURL=main.css.map */
