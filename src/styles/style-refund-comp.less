@@ -3,13 +3,22 @@
   .refund-apply-content{
     display: flex;
     flex-flow: column;
-    align-items: center;
     padding: 5px;
     margin-top: 20px;
     font-size: 14px;
 
+    &.refund-bgc{
+      background-color: #fff;
+      width: 90%;
+      margin: 20px auto;
+      padding: 15px 5px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #ccc;
+    }
+
     .refund-tab{
       width: 95%;
+      margin: 5px auto;
 
       span{
         margin-right: 20px;
@@ -30,6 +39,7 @@
 
     .refund-item-comp-wrapper{
       width: 95%;
+      margin: 0 auto;
 
       .refund-item-comp{
         padding: 15px 25px;
@@ -60,4 +70,22 @@
 
     }
   }
+
+  .refund-apply-comp-content-wrapper{
+    margin-top: 20px;
+    padding: 0 10px;
+
+    .refund-apply-comp-content{
+
+      .refund-apply-comp-common{
+        padding: 15px 0;
+        border-bottom: 1px solid #eee;
+
+        &:last-child{
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
 }

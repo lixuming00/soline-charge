@@ -578,13 +578,21 @@ li {
 .refund-apply-wrapper .refund-apply-content {
   display: flex;
   flex-flow: column;
-  align-items: center;
   padding: 5px;
   margin-top: 20px;
   font-size: 14px;
 }
+.refund-apply-wrapper .refund-apply-content.refund-bgc {
+  background-color: #fff;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}
 .refund-apply-wrapper .refund-apply-content .refund-tab {
   width: 95%;
+  margin: 5px auto;
 }
 .refund-apply-wrapper .refund-apply-content .refund-tab span {
   margin-right: 20px;
@@ -601,6 +609,7 @@ li {
 }
 .refund-apply-wrapper .refund-apply-content .refund-item-comp-wrapper {
   width: 95%;
+  margin: 0 auto;
 }
 .refund-apply-wrapper .refund-apply-content .refund-item-comp-wrapper .refund-item-comp {
   padding: 15px 25px;
@@ -624,5 +633,16 @@ li {
   position: absolute;
   left: 0;
   top: 0;
+}
+.refund-apply-wrapper .refund-apply-comp-content-wrapper {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+.refund-apply-wrapper .refund-apply-comp-content-wrapper .refund-apply-comp-content .refund-apply-comp-common {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+.refund-apply-wrapper .refund-apply-comp-content-wrapper .refund-apply-comp-content .refund-apply-comp-common:last-child {
+  border-bottom: none;
 }
 /*# sourceMappingURL=main.css.map */

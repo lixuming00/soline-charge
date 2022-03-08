@@ -1,16 +1,17 @@
-import React, {Component} from 'react';
-import { CommonTitleComp,CommonHeadComp, CommonBtnComp } from '../../src/components/common-comp/';
-import { RefundBalance } from '../../src/components/refund-comp/';
+import React, { Component } from 'react';
+import { CommonTitleComp,CommonHeadComp } from '../../src/components/common-comp/';
+import { RefundList } from '../../src/components/refund-comp/';
 import axios from 'axios';
 
 
 
 class RefundApply extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
       current: 'cash',
-      data: {}
+      data: []
     }
   };
 
@@ -25,11 +26,7 @@ class RefundApply extends Component {
   };
 
   handleCurrentChange = (value,url) => {
-    if(value === 'cash') {
       this.recieveData(value,url)
-    }else if(value === 'balance') {
-      this.recieveData(value,url)
-    }
   };
 
   componentDidMount() {
@@ -45,7 +42,7 @@ class RefundApply extends Component {
     return (
       <div className={`refund-apply-wrapper`}>
         <CommonTitleComp />
-        <CommonHeadComp title={`退款申请`} />
+        <CommonHeadComp title={`退款记录`} />
 
         <div className={`refund-apply-content`}>
           <div className={`refund-tab`}>
@@ -63,7 +60,7 @@ class RefundApply extends Component {
             </span>
           </div>
 
-          <RefundBalance data={this.state.data} />
+          <RefundList data={this.state.data} />
         </div>
       </div>
     );
