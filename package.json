@@ -20,6 +20,7 @@
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
     "next-images": "^1.8.4",
-    "next-transpile-modules": "^9.0.0"
+    "next-transpile-modules": "^9.0.0",
+    "babel-plugin-import": "^1.13.3"
   }
 }
