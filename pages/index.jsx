@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { CommonTitleComp } from '../src/components/common-comp';
-import { PersonPortrait, PersonService, PersonStatusComp } from '../src/components/person';
+import { PersonPortrait, PersonService, PersonStatusComp } from '../src/components/person-comp';
 import { Nav } from '../src/config/person-config';
 
 export default class Index extends Component {

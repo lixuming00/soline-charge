@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057da4c8-467c-4278-95e2-479b53c4742f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/refund-comp/refund-apply-balance-comp.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/refund-comp/refund-apply-cash-comp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rent-comp/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rent-comp/rent-list-comp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rent-comp/rent-list-title.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app-bk.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/refund-apply.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/refund-apply.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/refund-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/refund-item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/refund-comp/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/refund-comp/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/refund-comp/refund-balance.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/refund-comp/refund-list.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/refund-comp/refund-cash.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/rent-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/rent-list.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-comp/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person/person-portrait-comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-comp/person-portrait-comp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person/person-service-comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-comp/person-service-comp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person/person-status-comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-comp/person-status-comp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style-refund-comp.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style-refund-comp.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style-rent-list.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style-rent-list.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,9 @@
       <workItem from="1646642498266" duration="13000" />
       <workItem from="1646643895293" duration="853000" />
       <workItem from="1646644824324" duration="1019000" />
-      <workItem from="1646701333156" duration="23724000" />
+      <workItem from="1646701333156" duration="24458000" />
+      <workItem from="1646787248858" duration="173000" />
+      <workItem from="1646787429473" duration="5403000" />
     </task>
     <servers />
   </component>
@@ -102,5 +106,9 @@
       <screen x="0" y="23" width="1920" height="1004" />
     </state>
     <state x="574" y="278" key="IDE.errors.dialog/0.23.1920.1004@0.23.1920.1004" timestamp="1646729182895" />
+    <state x="563" y="272" key="Vcs.Push.Dialog.v2" timestamp="1646794815335">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state x="563" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.1004@0.23.1920.1004" timestamp="1646794815335" />
   </component>
 </project>
